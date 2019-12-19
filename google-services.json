@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "487026116798",
+    "firebase_url": "https://teachersapp-95c1a.firebaseio.com",
+    "project_id": "teachersapp-95c1a",
+    "storage_bucket": "teachersapp-95c1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487026116798:android:4e0a90b235b04ade",
+        "android_client_info": {
+          "package_name": "com.example.mydschoolteachersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487026116798-7l2usm7gb9nmiusn8gpveu66bs85040t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mydschoolteachersapp",
+            "certificate_hash": "6019c71a8658d66e25e3bd32bc63b8eee3c169c5"
+          }
+        },
+        {
+          "client_id": "487026116798-4bcbpr61i5ekp5hqf3biegd7e9r79sa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKT6a9LoVtmVq_xO1fnymoJblqqpVdEGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487026116798-4bcbpr61i5ekp5hqf3biegd7e9r79sa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

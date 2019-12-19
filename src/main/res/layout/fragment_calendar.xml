@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+
+    tools:context=".Fragments.CalendarFragment">
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:headerColor="@color/colorPrimary"
+        app:headerLabelColor="@color/colorWhite"
+        app:selectionColor="@color/colorRed"
+        app:todayLabelColor="@color/colorAccent"
+        tools:layout_editor_absoluteY="56dp" >
+
+
+    </com.applandeo.materialcalendarview.CalendarView>
+
+</LinearLayout>
+    <include layout="@layout/bottom_sheet_calendar">
+
+    </include>
+</android.support.design.widget.CoordinatorLayout>
